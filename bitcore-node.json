@@ -1,0 +1,18 @@
+{
+  "network": "mainnet",
+  "port": 80,
+  "services": [
+    "bitcoind",
+    "insight-api-komodo",
+    "insight-ui-komodo",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "/home/insight/.komodo/ZILLA",
+        "exec": "komodod"
+      }
+    }
+  }
+}
